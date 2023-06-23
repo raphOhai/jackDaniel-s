@@ -23,6 +23,7 @@ export default function InterSectionChecker(
             revarseAction();
             const showPicture = () => {
               hiddenElements1?.classList.remove("show");
+              entry.target.classList.remove("show");
             };
             setTimeout(showPicture, 1000);
           }
