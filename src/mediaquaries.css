@@ -134,6 +134,14 @@
   .shiftTopSection4 {
     margin-top: -9.3rem;
   }
+  .headerBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+    font-family: main;
+    font-size: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -193,6 +201,14 @@
   }
   .shiftTopSection4 {
     margin-top: -17rem;
+  }
+  .headerBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+    font-family: main;
+    font-size: 1rem;
   }
 }
 .overFlowHidden {
@@ -256,6 +272,14 @@
   .shiftTopSection4 {
     margin-top: -17rem;
   }
+  .headerBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+    font-family: main;
+    font-size: 1.5rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -305,6 +329,14 @@
   }
   .shiftTopSection4 {
     margin-top: -17rem;
+  }
+  .headerBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+    font-family: main;
+    font-size: 1.5rem;
   }
 }
 
@@ -370,5 +402,13 @@
   }
   .connectorMargin {
     margin-left: 34rem;
+  }
+  .headerBtn {
+    background-color: transparent;
+    border: none;
+    color: var(--main-text-color);
+    text-transform: capitalize;
+    font-family: main;
+    font-size: 1.5rem;
   }
 }
