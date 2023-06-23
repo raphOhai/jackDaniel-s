@@ -17,7 +17,7 @@ const Header = () => {
             <button className="headerBtn">USA - ENGLISH</button>
           </div>
         </div>
-        <div className="flex alignEnd ">
+        <div className="flex alignEnd  hidemobileAndTabFlex">
           <div className="evenFlex gap3 center hidemobileAndTabFlex">
             <p className="headerColoredText">OUR PRODUCT</p>
 
