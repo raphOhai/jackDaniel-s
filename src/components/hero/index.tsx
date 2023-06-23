@@ -9,8 +9,11 @@ const Hero = () => {
           loop
           // src="/mainVid.mp4"
           className="showMobileAndTab"
-          src="/output3.mp4"
+          src="https://res.cloudinary.com/daesuz8wk/video/upload/v1687528782/output3_hx7ipm.3gp"
         ></video>
+        <div>
+
+        </div>
       </div>
 
       <div className="mainWra">

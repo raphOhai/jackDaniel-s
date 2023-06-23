@@ -10,9 +10,8 @@ import Section3 from "./components/section3";
 import Section4 from "./components/section4";
 import Section1 from "./components/section1/section1";
 
-
 function App() {
-  ScrollVid("/output3.mp4");
+  ScrollVid("https://res.cloudinary.com/daesuz8wk/video/upload/v1687528782/output3_hx7ipm.3gp");
   // Hooks();
   return (
     <>
