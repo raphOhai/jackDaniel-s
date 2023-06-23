@@ -221,5 +221,9 @@ svg {
 }
 
 .footerMarginButtom{
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.logoLinetransition{
+  transition:  all 3s ease-in-out;
 }

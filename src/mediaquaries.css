@@ -1,5 +1,5 @@
 .section1Background {
-  background-image: url("https://res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1681824524/side/d/Header%20ImagesHERO%20%281%29.png");
+  background-image: url("https://res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1657741823/dynamic_grid/d/BarrelLight_0.png");
   /* background-image: url("https://res.cloudinary.com/hjqklbxsu/image/upload/f_auto,fl_lossy,q_auto/v1601495111/side/d/Process_Home_Desktop_Header_side%20aligned.jpg"); */
   background-repeat: no-repeat;
   overflow: hidden;
@@ -11,6 +11,7 @@
   opacity: 0.5;
   filter: blur(2px);
   -webkit-filter: blur(2px);
+  rotate: 180deg;
 }
 
 .section3Background {
@@ -39,6 +40,9 @@
   z-index: -3;
   /* opacity: 0.5; */
 }
+
+
+
 .imageTrickContainer {
   position: relative;
 }
@@ -125,6 +129,8 @@
     z-index: -1;
     height: 360px;
   }
+
+
   .shiftTopSvg {
     margin-top: -2rem;
   }
@@ -347,6 +353,17 @@
     top: 0.2rem;
     z-index: -1;
     height: 750px;
+  }
+
+  .imageTrickContainer4 {
+    position: relative;
+  }
+  .imageTrickContent4 {
+    position: absolute;
+    left: 0rem;
+    top: 1.5rem;
+    z-index: -1;
+    height: 360px;
   }
   .shiftTopSvg {
     margin-top: -2rem;

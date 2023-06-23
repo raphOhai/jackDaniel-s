@@ -44,7 +44,7 @@
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-  rotate: 0deg;
+  /* rotate: 0deg; */
 }
 
 .rightSlide {
@@ -81,3 +81,5 @@
 .group:nth-child(10) {
   transition-delay: 1800ms;
 }
+
+

@@ -10,6 +10,7 @@ import Section3 from "./components/section3";
 import Section4 from "./components/section4";
 import Section1 from "./components/section1/section1";
 import Footer from "./components/footer";
+// import BottleConnectors from "./components/conector2";
 
 function App() {
   // ScrollVid("/output3.mp4");
@@ -21,6 +22,7 @@ function App() {
       <div className="stack2  gap1">
         <Hero />
         <Section3 />
+        {/* <BottleConnectors /> */}
         <Section2 />
         <Section4 />
         <Section1 />

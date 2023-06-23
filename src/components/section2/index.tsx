@@ -21,7 +21,7 @@ const Section2 = () => {
                   latest launches, partnerships, promotions and more.
                 </p>
                 <div >
-                  <Btn slide={"btnsld1"} text={"btntxt1"} />
+                  <Btn slide={"btnsld1"} text={"btntxt1"} displayText="laern more" />
                 </div>
               </div>
             </div>

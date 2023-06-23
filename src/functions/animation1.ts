@@ -29,6 +29,17 @@ export const Undraw3 = () => {
   svg2?.classList.remove("drawPath3");
 };
 
+
+export const draw4 = () => {
+  const svg2 = document.getElementById("path4");
+  svg2?.classList.add("drawPath4");
+};
+
+export const Undraw4 = () => {
+  const svg2 = document.getElementById("path4");
+  svg2?.classList.remove("drawPath4");
+};
+
 export const hoverEvent = (slide: string, innerText: string) => {
   const slider = document.getElementById(slide);
   const text = document.getElementById(innerText);

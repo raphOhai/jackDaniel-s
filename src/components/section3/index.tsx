@@ -20,7 +20,7 @@ const Section3 = () => {
                     latest launches, partnerships, promotions and more.
                   </p>
                   <div className="">
-                    <Btn slide={"btnsld4"} text={"btntxt4"} />
+                    <Btn slide={"btnsld4"} text={"btntxt4"} displayText="laern more" />
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const Section3 = () => {
                     latest launches, partnerships, promotions and moreh.
                   </p>
                   <div className="">
-                    <Btn slide={"btnsld2"} text={"btntxt2"} />
+                    <Btn slide={"btnsld2"} text={"btntxt2"} displayText="laern more"/>
                   </div>
                 </div>
               </div>
