@@ -40,7 +40,7 @@ const Hero = () => {
   Hooks();
   useEffect(() => {
     const item = document.getElementById("demovid") as HTMLVideoElement;
-    const observer = new IntersectionObserver((entries,) => {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           item.play();
@@ -63,9 +63,9 @@ const Hero = () => {
           src="https://res.cloudinary.com/daesuz8wk/video/upload/v1687543400/output4_wdcd7i.mp4"
           // src="/output4.mp4"
         ></video>
-        <div className="absolut1 elevate">
-          <div className="flex center1">
-            <div onClick={Control}>
+        <div className="absolut1 elevate showMobileAndTab">
+          <div className="flex center1 showMobileAndTab">
+            <div className="showMobileAndTab" onClick={Control}>
               {isPlaying ? <PulseBtn /> : <PlayBtn />}
             </div>
           </div>

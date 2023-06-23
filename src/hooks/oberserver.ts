@@ -27,7 +27,7 @@ export default function InterSectionChecker(
             setTimeout(showPicture, 1000);
           }
         },
-        { threshold: 0.5 }
+        { threshold: 0.2 }
       );
     });
     const hiddenElements = document.querySelectorAll("." + trigger);
