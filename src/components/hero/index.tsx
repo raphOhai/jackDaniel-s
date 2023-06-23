@@ -64,7 +64,7 @@ const Hero = () => {
           // src="/output4.mp4"
         ></video>
         <div className="absolut1 elevate showMobileAndTab">
-          <div className="flex center1 showMobileAndTab">
+          <div className="flex center1 ">
             <div className="showMobileAndTab" onClick={Control}>
               {isPlaying ? <PulseBtn /> : <PlayBtn />}
             </div>
