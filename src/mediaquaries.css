@@ -293,6 +293,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
+  #v0 {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    margin: 0;
+  }
 
   .hidemobileAndTabFlex {
     display: flex;
@@ -346,7 +355,15 @@
     padding-left: 15rem;
     padding-right: 15rem;
   }
-
+  #v0 {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    margin: 0;
+  }
   .gridSection1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
