@@ -1,0 +1,211 @@
+@font-face {
+  font-family: regular;
+  src: url(/public/EditSerifCy-Regular.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: regular2;
+  src: url(/public/EditSerifCy-RegularIt.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: main;
+  src: url(/public/HWTUnitGothic720.woff);
+  font-weight: bold;
+}
+
+:root {
+  --main-text-color: #fff;
+
+  --main-backgroundColor: #000000;
+
+  --Btn--color: #baab8f;
+}
+
+/* fonts */
+
+.headerColoredText {
+  color: var(--Btn--color);
+  font-family: main;
+  font-size: 1rem;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}
+
+.headerWhiteText {
+  color: var(--main-text-color);
+  font-family: main;
+  font-size: 1rem;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+}
+.sectionTextLarge {
+  color: var(--main-text-color);
+  font-family: main;
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+.sectionTextParagraph {
+  color: var(--main-text-color);
+  font-family: regular;
+  font-size: 1.2rem;
+  /* letter-spacing: 2px; */
+}
+.capitalize {
+  text-transform: uppercase;
+}
+
+.transition {
+  transition:  all 1.5s ease-in-out;
+}
+body {
+
+  background-color: var(--main-backgroundColor);
+}
+
+.Mainsvg {
+  position: fixed;
+  top: 2rem;
+  /* left: 3rem; */
+  margin-bottom: 3rem;
+}
+
+.canvas {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.mainWrap {
+  height: 100vh;
+}
+.videoWrap {
+  min-height: 300vh;
+  border-color: red;
+}
+#v0 {
+  width: 100vw;
+}
+
+.vidDiv {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  /* stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  pointer-events: none; */
+}
+/* path {
+  animation: animateDash 4s linear forwards infinite;
+} */
+
+@keyframes animateDash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/* utility classes */
+
+.mainStack {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.headerFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 4;
+}
+
+.alignEnd {
+  justify-content: end;
+  align-items: flex-end;
+}
+
+
+
+.evenFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center1 {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.headerBtn {
+  background-color: transparent;
+  border: none;
+  color: var(--main-text-color);
+  text-transform: capitalize;
+  font-family: main;
+  font-size: 1.5rem;
+}
+
+.padding {
+  padding: 1rem;
+}
+.defaultPadding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.stack2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap1 {
+  gap: 1rem;
+}
+
+.gap2 {
+  gap: 2rem;
+}
+.gap3 {
+  gap: 3rem;
+}
+.gap4 {
+  gap: 4rem;
+}
+.gap5 {
+  gap: 1rem;
+}
+.glasify {
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.widthRestrict{
+  max-width: 20rem;
+}

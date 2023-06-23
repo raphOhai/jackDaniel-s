@@ -1,0 +1,60 @@
+:root {
+  --main-text-color: #fff;
+
+  --main-backgroundColor: #000000;
+
+  --Btn--color: #baab8f;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(/public/EditSerifCy-Regular.woff);
+  font-weight: bold;
+}
+
+.btnContainer {
+  position: relative;
+  border: 3px solid var(--Btn--color);
+  max-width: 10rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btnContainer p {
+  /* color: #baab8f; */
+  font-family: regular;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.slide {
+  background-color: var(--Btn--color);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 12rem;
+}
+
+.right0 {
+  right: 0;
+}
+
+.showText {
+  color: black;
+}
+
+.default{
+  color: #baab8f;
+}
+
+.transition2{
+  transition: all .4s ease;
+}
+
+/* 
+
+.btnContainer p:hover{
+    color: #000;
+} */
