@@ -1,6 +1,9 @@
 const Footer = () => {
   return (
-    <div style={{ marginTop: "20rem" }} className="flex center1">
+    <div
+      style={{ marginTop: "20rem" }}
+      className="flex center1 footerMarginButtom"
+    >
       <div className="stack2 gap2">
         <div className="flex center1">
           <img

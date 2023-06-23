@@ -219,3 +219,7 @@ svg {
 .widthRestrict{
   max-width: 20rem;
 }
+
+.footerMarginButtom{
+  margin-bottom: 3rem;
+}
