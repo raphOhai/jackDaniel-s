@@ -2,7 +2,7 @@ const Section1 = () => {
   return (
     <div className="section1Backgroun shiftTopSection4">
       <div id="img3" className="absolute section4Background fadeIn "></div>
-      <div className=" sectionMaxWidt">
+      <div className=" maxWidth">
         <div className="gridSection1 sectionPadding">
           <div className="flex">
             <div style={{ marginTop: "10rem" }} className=" flex center1">

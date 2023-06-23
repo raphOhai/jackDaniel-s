@@ -227,3 +227,9 @@ svg {
 .logoLinetransition{
   transition:  all 3s ease-in-out;
 }
+
+.maxWidth {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0rem;
+}

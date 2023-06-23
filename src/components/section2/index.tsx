@@ -7,9 +7,9 @@ import { Undraw1, draw1 } from "../../functions/animation1";
 const Section2 = () => {
   InterSectionChecker("trigger", "img1", draw1, Undraw1);
   return (
-    <div className="section1Backgroun">
+    <div className="section1Backgroun ">
       <div className="absolute sectionBackground"></div>S ection1
-      <div className="">
+      <div className="maxWidth">
         <div className="gridSection1 sectionPadding ">
           <div className="flex ">
         

@@ -5,7 +5,7 @@
   overflow: hidden;
   background-size: initial;
   background-position: center top;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: -3;
   opacity: 0.5;
