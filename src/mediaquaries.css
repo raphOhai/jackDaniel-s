@@ -88,7 +88,7 @@
     gap: 1rem;
   }
 
-  #v0 {
+  #demovid {
     /* position: fixed; */
     top: 0;
     left: 0;
@@ -151,7 +151,7 @@
     padding-right: 2rem;
   }
 
-  #v0 {
+  #demovid {
     /* position: fixed; */
     top: 0;
     left: 0;
@@ -221,14 +221,14 @@
     padding-right: 4rem;
   }
 
-  #v0 {
+  #demovid {
     /* position: fixed; */
     top: 0;
     left: 0;
-    width: 120rem;
+    width: 130rem;
     height: 60vh;
     opacity: 1;
-    margin-left: -43rem;
+    margin-left: -46rem;
   }
 
   .gridSection1 {

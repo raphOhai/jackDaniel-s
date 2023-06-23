@@ -34,7 +34,6 @@
   text-transform: uppercase;
 }
 
-
 .footerText {
   color: var(--Btn--color);
   font-family: main;
@@ -69,10 +68,9 @@
 }
 
 .transition {
-  transition:  all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 }
 body {
-
   background-color: var(--main-backgroundColor);
 }
 
@@ -150,8 +148,6 @@ svg {
   align-items: flex-end;
 }
 
-
-
 .evenFlex {
   display: flex;
   justify-content: space-around;
@@ -171,8 +167,6 @@ svg {
   align-items: center;
   margin: 0 auto;
 }
-
-
 
 .padding {
   padding: 1rem;
@@ -209,20 +203,31 @@ svg {
   backdrop-filter: blur(10px);
 }
 
-.widthRestrict{
+.widthRestrict {
   max-width: 20rem;
 }
 
-.footerMarginButtom{
+.footerMarginButtom {
   margin-bottom: 1rem;
 }
 
-.logoLinetransition{
-  transition:  all 3s ease-in-out;
+.logoLinetransition {
+  transition: all 3s ease-in-out;
 }
 
 .maxWidth {
   max-width: 100rem;
   margin: 0 auto;
   padding: 0rem;
+}
+
+.absolut1 {
+  /* position: fixed;
+  top: 3rem; */
+  /* top: 5rem;
+  left: 0rem; */
+}
+
+.elevate {
+  z-index: 3;
 }
