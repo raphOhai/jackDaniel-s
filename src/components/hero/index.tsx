@@ -9,7 +9,7 @@ const Hero = () => {
           loop
           // src="/mainVid.mp4"
           className="showMobileAndTab"
-          src="https://res.cloudinary.com/daesuz8wk/video/upload/v1687528782/output3_hx7ipm.3gp"
+          src="https://res.cloudinary.com/daesuz8wk/video/upload/v1687543400/output4_wdcd7i.mp4"
           // src="/output3.mp4"
         ></video>
         <div>

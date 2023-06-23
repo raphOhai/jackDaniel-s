@@ -7,10 +7,10 @@ const Section1 = () => {
           <div className="flex">
             <div style={{ marginTop: "10rem" }} className=" flex center1">
               <div className="widthRestrict stack2 gap1 ">
-                <p className="sectionTextLarge capitalize">
+                <p className="sectionTextLarge capitalize trigger2 SlideUp group">
                   JACK DANIEL DISTILLERY TOURS
                 </p>
-                <p className="sectionTextParagraph ">
+                <p className="sectionTextParagraph  trigger2 SlideUp group">
                   Visiting the Lynchburg, Tennessee? Book your distillery tours
                   here!
                 </p>

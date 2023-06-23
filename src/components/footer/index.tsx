@@ -29,18 +29,18 @@ const Footer = () => {
           </div>
         </div>
         <div className=" stack sectionPadding">
-          <p className="footerText flex center ">
+          <p className="footerText flex center start2 SlideUp group">
             JACK DANIEL DISTILLERY LYNCHBURG, TENNESSEE JACK, JACK DANIEL'S, OLD
             NO. 7, GENTLEMAN JACK, and JD are trademarks of Jack Daniel's
             Properties, Inc. © 2023 Jack Daniel's Properties, Inc.{" "}
           </p>
-          <p className="footerText flex center">
+          <p className="footerText flex center start2 SlideUp group">
             All rights reserved. All other trademarks and trade names are
             properties of their respective owners. TO FIND OUT MORE ABOUT
             RESPONSIBLE CONSUMPTION, VISIT RESPONSIBILITY.ORG AND
             OURTHINKINGABOUTDRINKING.COM
           </p>
-          <p className="footerText flex center start2">
+          <p className="footerText flex center start2 SlideUp group">
             Please do not share or forward with anyone under the legal drinking
             age.
           </p>

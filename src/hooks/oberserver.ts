@@ -3,6 +3,7 @@ import { useEffect } from "react";
 export default function InterSectionChecker(
   trigger: string,
   item: string,
+
   action: any,
   revarseAction: any
 ) {
@@ -15,6 +16,7 @@ export default function InterSectionChecker(
             action();
             const showPicture = () => {
               hiddenElements1?.classList.add("show");
+              entry.target.classList.add("show");
             };
             setTimeout(showPicture, 1000);
           } else {

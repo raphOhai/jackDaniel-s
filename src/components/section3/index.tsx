@@ -14,13 +14,19 @@ const Section3 = () => {
             <div className=" flex center1">
               <div className="stack2 gap1">
                 <div className=" stack2 gap1 ">
-                  <p className="sectionTextLarge capitalize">latest News</p>
-                  <p className="sectionTextParagraph ">
+                  <p className="sectionTextLarge capitalize start SlideUp group">
+                    latest News
+                  </p>
+                  <p className="sectionTextParagraph start  SlideUp group">
                     What's new in the world of Jack? Click here and discover our
                     latest launches, partnerships, promotions and more.
                   </p>
-                  <div className="">
-                    <Btn slide={"btnsld4"} text={"btntxt4"} displayText="laern more" />
+                  <div className="start SlideUp group">
+                    <Btn
+                      slide={"btnsld4"}
+                      text={"btntxt4"}
+                      displayText="laern more"
+                    />
                   </div>
                 </div>
               </div>
@@ -41,17 +47,23 @@ const Section3 = () => {
             </div>
           </div>
 
-          <div style={{marginTop:"10rem"}} className="hideMobileAndTab">
+          <div style={{ marginTop: "10rem" }} className="hideMobileAndTab">
             <div className=" flex center1">
               <div className="stack2 gap1">
                 <div className=" stack2 gap1 ">
-                  <p className="sectionTextLarge capitalize">latest News</p>
-                  <p className="sectionTextParagraph ">
+                  <p className="sectionTextLarge capitalize start SlideUp group">
+                    latest News
+                  </p>
+                  <p className="sectionTextParagraph start SlideUp group ">
                     What's new in the world of Jack? Click here and discover our
                     latest launches, partnerships, promotions and moreh.
                   </p>
-                  <div className="">
-                    <Btn slide={"btnsld2"} text={"btntxt2"} displayText="laern more"/>
+                  <div className=" start SlideUp group">
+                    <Btn
+                      slide={"btnsld2"}
+                      text={"btntxt2"}
+                      displayText="laern more"
+                    />
                   </div>
                 </div>
               </div>

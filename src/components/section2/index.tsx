@@ -12,16 +12,21 @@ const Section2 = () => {
       <div className="maxWidth">
         <div className="gridSection1 sectionPadding ">
           <div className="flex ">
-        
             <div className=" flex center1">
               <div className=" stack2 gap1  ">
-                <p className="sectionTextLarge capitalize">latest News</p>
-                <p className="sectionTextParagraph ">
+                <p className="sectionTextLarge capitalize trigger  SlideUp group">
+                  latest News
+                </p>
+                <p className="sectionTextParagraph trigger  SlideUp group">
                   What's new in the world of Jack? Click here and discover our
                   latest launches, partnerships, promotions and more.
                 </p>
-                <div >
-                  <Btn slide={"btnsld1"} text={"btntxt1"} displayText="laern more" />
+                <div className="trigger  SlideUp group">
+                  <Btn
+                    slide={"btnsld1"}
+                    text={"btntxt1"}
+                    displayText="laern more"
+                  />
                 </div>
               </div>
             </div>
