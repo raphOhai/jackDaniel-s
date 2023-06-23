@@ -3,7 +3,7 @@ import { Undraw4, draw4 } from "../../functions/animation1";
 import InterSectionChecker from "../../hooks/oberserver";
 
 const Footer = () => {
-  InterSectionChecker("start", "img4", draw4, Undraw4);
+  InterSectionChecker("start2", "img4", draw4, Undraw4);
   return (
     <div
       style={{ marginTop: "20rem" }}
@@ -40,7 +40,7 @@ const Footer = () => {
             RESPONSIBLE CONSUMPTION, VISIT RESPONSIBILITY.ORG AND
             OURTHINKINGABOUTDRINKING.COM
           </p>
-          <p className="footerText flex center start">
+          <p className="footerText flex center start2">
             Please do not share or forward with anyone under the legal drinking
             age.
           </p>

@@ -41,8 +41,6 @@
   /* opacity: 0.5; */
 }
 
-
-
 .imageTrickContainer {
   position: relative;
 }
@@ -130,7 +128,6 @@
     height: 360px;
   }
 
-
   .shiftTopSvg {
     margin-top: -2rem;
   }
@@ -176,26 +173,26 @@
   }
   .imageTrickContent2 {
     position: absolute;
-    left: 4rem;
+    left: 8rem;
     top: 0.2rem;
     z-index: -1;
-    height: 360px;
+    height: 750px;
   }
   .imageTrickContainer3 {
     position: relative;
   }
   .imageTrickContent3 {
     position: absolute;
-    left: 4rem;
+    left: 8rem;
     top: 0.2rem;
     z-index: -1;
-    height: 360px;
+    height: 750px;
   }
   .shiftTopSvg {
-    margin-top: -1rem;
+    margin-top: -3rem;
   }
   .shiftTopSection4 {
-    margin-top: -9.3rem;
+    margin-top: -17rem;
   }
 }
 .overFlowHidden {
