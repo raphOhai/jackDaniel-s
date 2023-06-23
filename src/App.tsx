@@ -11,8 +11,9 @@ import Section4 from "./components/section4";
 import Section1 from "./components/section1/section1";
 
 function App() {
-  ScrollVid("https://res.cloudinary.com/daesuz8wk/video/upload/v1687528782/output3_hx7ipm.3gp");
+  // ScrollVid("/output3.mp4");
   // Hooks();
+  ScrollVid("https://res.cloudinary.com/daesuz8wk/video/upload/v1687528782/output3_hx7ipm.3gp");
   return (
     <>
       <Header />
