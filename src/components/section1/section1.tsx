@@ -1,3 +1,5 @@
+import Btn from "../coolBtn/btn";
+
 const Section1 = () => {
   return (
     <div className="section1Backgroun shiftTopSection4">
@@ -14,6 +16,13 @@ const Section1 = () => {
                   Visiting the Lynchburg, Tennessee? Book your distillery tours
                   here!
                 </p>
+                <div className="trigger2 SlideUp group">
+                  <Btn
+                    slide={"btnsld4"}
+                    text={"btntxt4"}
+                    displayText="visit us"
+                  />
+                </div>
               </div>
             </div>
           </div>

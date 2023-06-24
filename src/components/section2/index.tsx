@@ -15,17 +15,19 @@ const Section2 = () => {
             <div className=" flex center1">
               <div className=" stack2 gap1  ">
                 <p className="sectionTextLarge capitalize trigger  SlideUp group">
-                  latest News
+                  JACK DANIEL'S TRIPLE MASH
                 </p>
                 <p className="sectionTextParagraph trigger  SlideUp group">
-                  What's new in the world of Jack? Click here and discover our
-                  latest launches, partnerships, promotions and more.
+                  A blend of three straight Bottled-in-Bond Whiskeys - Jack
+                  Daniel's American Malt, Jack Daniel's Tennessee Rye and Jack
+                  Daniel's Tennessee Whiskey. Its unique flavor is bottled at
+                  100 proof.
                 </p>
                 <div className="trigger  SlideUp group">
                   <Btn
                     slide={"btnsld1"}
                     text={"btntxt1"}
-                    displayText="laern more"
+                    displayText="learn more"
                   />
                 </div>
               </div>

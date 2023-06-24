@@ -53,7 +53,7 @@
 .sectionTextLarge {
   color: var(--main-text-color);
   font-family: main;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 3px;
 }
 

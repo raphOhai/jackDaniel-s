@@ -25,7 +25,7 @@ const Section3 = () => {
                     <Btn
                       slide={"btnsld4"}
                       text={"btntxt4"}
-                      displayText="laern more"
+                      displayText="learn more"
                     />
                   </div>
                 </div>
@@ -52,11 +52,12 @@ const Section3 = () => {
               <div className="stack2 gap1">
                 <div className=" stack2 gap1 ">
                   <p className="sectionTextLarge capitalize start SlideUp group">
-                    latest News
+                    JACK DANIEL'S BONDED
                   </p>
                   <p className="sectionTextParagraph start SlideUp group ">
-                    What's new in the world of Jack? Click here and discover our
-                    latest launches, partnerships, promotions and moreh.
+                    Born from Jack’s time-honored recipe, aged in select barrels
+                    and bottled at 100 proof. It’s a big, bold Tennessee
+                    Whiskey.
                   </p>
                   <div className=" start SlideUp group">
                     <Btn
