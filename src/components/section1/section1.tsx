@@ -18,8 +18,8 @@ const Section1 = () => {
                 </p>
                 <div className="trigger2 SlideUp group">
                   <Btn
-                    slide={"btnsld4"}
-                    text={"btntxt4"}
+                    slide={"btnsld45"}
+                    text={"btntxt45"}
                     displayText="visit us"
                   />
                 </div>
